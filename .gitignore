@@ -1,4 +1,4 @@
 *.class
 *.apk
 
-release/workspace/
+release/workspace/*
