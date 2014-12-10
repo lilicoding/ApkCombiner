@@ -1,14 +1,11 @@
 #! /bin/bash
 
-cp=.
-cp=$cp:ApkCombiner_lib/commons-io-2.4.jar
-cp=$cp:ApkCombiner_lib/jdom-2.0.5.jar
-cp=$cp:ApkCombiner_lib/apktool.jar
-cp=$cp:ApkCombiner.jar
-
 rm -rf workspace
+rm -rf workspace_apps
 mkdir workspace
+mkdir workspace_apps
 
-java -cp $cp iccta.apkcombiner.Main $*
+java -jar ApkCombiner-1.0.0.jar $*
 
 rm -rf workspace
+rm -rf workspace_apps
