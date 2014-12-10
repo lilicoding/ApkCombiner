@@ -8,7 +8,7 @@ Usage:
 export PATH=$PATH:$ANDROID_SDK/build-tools/android-4.4
 
 # Launch ApkCombiner
-./runApkCombiner.sh app1.apk app2.apk ...
+./runApkCombiner.sh $ANDROID_PLATFORM_PATH app1.apk app2.apk ...
 ```
 
 After the execution, there should be an apk named app1-ac-app2.apk in the current directory.
