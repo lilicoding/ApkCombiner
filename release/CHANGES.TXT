@@ -4,5 +4,5 @@ version-0.1.0
 
 version-1.0.0
 	solving class conflicts (same class name) in two ways: 1) directly overwrite for same md5 conflicts and 2) refactor different md5 conflicts.
-	using full class name instead of ".name" style for all the components
-	removing duplicated components 
+	using full class name instead of ".name" style for all the components in AndroidManifest.xml
+	removing duplicated components in AndroidManifest.xml 
